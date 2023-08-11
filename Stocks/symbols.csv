@@ -139,7 +139,7 @@ ALIT,$ALIT,Alight Inc. Class A Common Stock
 ALK,$ALK,Alaska Air Group Inc. Common Stock
 ALKS,$ALKS,Alkermes plc Ordinary Shares
 ALKT,$ALKT,Alkami Technology Inc. Common Stock
-ALL,$ALL,Allstate Corporation (The) Common Stock
+$ALL,$ALL,Allstate Corporation (The) Common Stock
 ALLE,$ALLE,Allegion plc Ordinary Shares
 ALLG,$ALLG,Allego N.V. Ordinary Share
 ALLK,$ALLK,Allakos Inc. Common Stock
@@ -247,7 +247,7 @@ ARCH,$ARCH,Arch Resources Inc. Class A Common Stock
 ARCO,$ARCO,Arcos Dorados Holdings Inc. Class A Shares
 ARCT,$ARCT,Arcturus Therapeutics Holdings Inc. Common Stock
 ARDX,$ARDX,Ardelyx Inc. Common Stock
-ARE,$ARE,Alexandria Real Estate Equities Inc. Common Stock
+$ARE,$ARE,Alexandria Real Estate Equities Inc. Common Stock
 ARES,$ARES,Ares Management Corporation Class A Common Stock
 ARGD,$ARGD,Argo Group International Holdings Ltd. 6.5% Senior Notes Due 2042
 ARGO,$ARGO,Argo Group International Holdings Ltd.
@@ -572,7 +572,7 @@ BX,$BX,Blackstone Inc. Common Stock
 BXC,$BXC,Bluelinx Holdings Inc. Common Stock
 BXMT,$BXMT,Blackstone Mortgage Trust Inc. Common Stock
 BXP,$BXP,Boston Properties Inc. Common Stock
-BY,$BY,Byline Bancorp Inc. Common Stock
+$BY,$BY,Byline Bancorp Inc. Common Stock
 BYD,$BYD,Boyd Gaming Corporation Common Stock
 BYND,$BYND,Beyond Meat Inc. Common Stock
 BZ,$BZ,KANZHUN LIMITED American Depository Shares
@@ -1464,7 +1464,7 @@ GNRC,$GNRC,Generac Holdlings Inc. Common Stock
 GNTX,$GNTX,Gentex Corporation Common Stock
 GNTY,$GNTY,Guaranty Bancshares Inc. Common Stock
 GNW,$GNW,Genworth Financial Inc Common Stock
-GO,$GO,Grocery Outlet Holding Corp. Common Stock
+$GO,$GO,Grocery Outlet Holding Corp. Common Stock
 GOCO,$GOCO,GoHealth Inc. Class A Common Stock
 GOEV,$GOEV,Canoo Inc. Class A Common Stock
 GOGL,$GOGL,Golden Ocean Group Limited Common Stock
@@ -2082,7 +2082,7 @@ MDRX,$MDRX,Veradigm Inc. Common Stock
 MDT,$MDT,Medtronic plc. Ordinary Shares
 MDU,$MDU,MDU Resources Group Inc. Common Stock (Holding Company)
 MDXG,$MDXG,MiMedx Group Inc Common Stock
-ME,$ME,23andMe Holding Co. Class A Common Stock
+$ME,$ME,23andMe Holding Co. Class A Common Stock
 MED,$MED,MEDIFAST INC Common Stock
 MEDP,$MEDP,Medpace Holdings Inc. Common Stock
 MEG,$MEG,Montrose Environmental Group Inc. Common Stock
@@ -2281,7 +2281,7 @@ NEWTL,$NEWTL,NewtekOne Inc. 5.75% Notes due 2024
 NEWTZ,$NEWTZ,NewtekOne Inc. 5.50% Notes Due 2026
 NEX,$NEX,NexTier Oilfield Solutions Inc. Common Stock
 NEXA,$NEXA,Nexa Resources S.A. Common Shares
-NEXT,$NEXT,NextDecade Corporation Common Stock
+$NEXT,$NEXT,NextDecade Corporation Common Stock
 NFBK,$NFBK,Northfield Bancorp Inc. Common Stock (Delaware)
 NFE,$NFE,New Fortress Energy Inc. Class A Common Stock
 NFG,$NFG,National Fuel Gas Company Common Stock
@@ -2327,7 +2327,7 @@ NOTE,$NOTE,FiscalNote Holdings Inc. Class A common stock
 NOV,$NOV,NOV Inc. Common Stock
 NOVA,$NOVA,Sunnova Energy International Inc. Common Stock
 NOVT,$NOVT,Novanta Inc. Common Stock
-NOW,$NOW,ServiceNow Inc. Common Stock
+$NOW,$NOW,ServiceNow Inc. Common Stock
 NPK,$NPK,National Presto Industries Inc. Common Stock
 NPO,$NPO,EnPro Industries Inc
 NR,$NR,Newpark Resources Inc. Common Stock
@@ -2919,7 +2919,7 @@ SASR,$SASR,Sandy Spring Bancorp Inc. Common Stock
 SATS,$SATS,EchoStar  Corporation Common Stock
 SATX,$SATX,SatixFy Communications Ltd. Ordinary Share
 SAVA,$SAVA,Cassava Sciences Inc. Common Stock
-SAVE,$SAVE,Spirit Airlines Inc. Common Stock
+$SAVE,$SAVE,Spirit Airlines Inc. Common Stock
 SAY,$SAY,Saratoga Investment Corp 8.125% Notes due 2027
 SAZ,$SAZ,Saratoga Investment Corp 8.50% Notes due 2028
 SB,$SB,Safe Bulkers Inc Common Stock ($0.001 par value)
@@ -3581,7 +3581,7 @@ WDC,$WDC,Western Digital Corporation Common Stock
 WDFC,$WDFC,WD-40 Company Common Stock
 WDH,$WDH,Waterdrop Inc. American Depositary Shares (each representing the right to receive 10 Class A Ordinary Shares)
 WDS,$WDS,Woodside Energy Group Limited American Depositary Shares each representing one Ordinary Share
-WE,$WE,WeWork Inc. Class A Common Stock
+$WE,$WE,WeWork Inc. Class A Common Stock
 WEAV,$WEAV,Weave Communications Inc. Common Stock
 WEC,$WEC,WEC Energy Group Inc. Common Stock
 WELL,$WELL,Welltower Inc. Common Stock

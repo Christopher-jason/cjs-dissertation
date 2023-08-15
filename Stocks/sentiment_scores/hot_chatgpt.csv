@@ -220,7 +220,7 @@ date,text,ticker,label,score
 2023-03-18,Fed goes brrrrrrrrrrrrr,S&P,neutral,0.0
 2023-03-18,If our banking system was a gy,S&P,neutral,0.0
 2023-03-18,"Saw this headline, excited for whatever you guys are up to",S&P,positive,0.625
-2023-03-18,Retail Investor vs Accredited Investor,S&P,error,2.0
+2023-03-18,Retail Investor vs Accredited Investor,S&P,Neutral,0.0
 2023-03-18,UBS offers to buy Credit Suisse for $0.25 a share,UBS,positive,0.421
 2023-03-18,Bloomberg: Credit Suisse said to push back against UBS $1 Billion offer.,UBS,negative,-0.2
 2023-03-18,Powell’s bane,S&P,negative,-1.0
@@ -483,7 +483,7 @@ date,text,ticker,label,score
 2023-03-22,2DTE 30k SPY PUTS.,S&P,neutral,0.0
 2023-03-22,How today will go… (bears r fkt).,S&P,negative,-0.778
 2023-03-22,“The consumer is strong.”,S&P,Positive,0.8
-2023-03-22,The past 2 weeks.,S&P,error,2.0
+2023-03-22,The past 2 weeks.,S&P,neutral,0.0
 2023-03-22,Looks like there was hope...,S&P,positive,0.4
 2023-03-22,Where will the stock market go after tomorrow's Fed meeting?,S&P,neutral,0.0
 2023-03-22,Banks issuing additional tier 1 capital.,S&P,positive,0.0
@@ -908,7 +908,7 @@ date,text,ticker,label,score
 2023-04-01,Why is the market not crashing? Check out the SECURE 2.0 Act of 2022.,S&P,negative,-0.1
 2023-04-01,Finally broke him!,S&P,negative,-1.0
 2023-04-01,Options expected move charts for the week/month/quarter,S&P,positive,0.5
-2023-04-01,OK analyst,S&P,error,2.0
+2023-04-01,OK analyst,S&P,positive,0.25
 2023-04-01,"Bought a tad too early but oh well, go ahead roast me",S&P,negative,-0.333
 2023-04-01,YOLO: May Lord Buffett announce a position in $FRC this weekend. $29k on next week's 15 calls,S&P,positive,0.562
 2023-04-01,TSLA 0dte YOLO,TSLA,negative,-0.7
@@ -927,7 +927,7 @@ date,text,ticker,label,score
 2023-04-01,Only a few thousand % more and I’m even on the year!,S&P,positive,0.027
 2023-04-01,"The Deutsche line is built from text mining 1.2M financial news articles from 200 financial news sources, defining how widespread it is.",S&P,positive,0.151
 2023-04-01,$SCHW YOLO,SCHW,negative,0.0
-2023-04-01,Burrygang,S&P,error,2.0
+2023-04-01,Burrygang,S&P,neutral,0.0
 2023-04-01,WISH YOLO month-end update — Mar 2023,S&P,positive,0.7
 2023-04-01,SCHW (Charles Schwab) is going to survive or crash as FRC?,SCHW,negative,-0.5
 2023-04-01,I guess it's true... Stonks only go up.,S&P,positive,0.6
@@ -1243,7 +1243,7 @@ date,text,ticker,label,score
 2023-06-18,"SPY Technical Analysis for Tuesday June 20, 2023 - SPY’s H1 Analysis: Market Shift Points to Bearish Bias",S&P,negative,-0.5
 2023-06-18,Fuck 🌈 🐻 !,S&P,negative,-1.0
 2023-06-18,"Daily Discussion Thread for June 16, 2023",S&P,positive,0.5
-2023-06-18,Options vs Futures,S&P,error,2.0
+2023-06-18,Options vs Futures,S&P,neutral,0.0
 2023-06-18,Fucked the fed and treasury rant!,S&P,negative,-0.9
 2023-06-18,"Goldman Sachs under federal investigation over role in SVB collapse, reports",S&P,negative,-0.4
 2023-06-18,Shorting the entire country of South Africa 2 years update!,S&P,negative,-0.5
@@ -1312,7 +1312,7 @@ date,text,ticker,label,score
 2023-06-21,A look inside WSB,S&P,positive,0.206
 2023-06-21,I saw this and thought of you regards.,S&P,positive,0.788
 2023-06-21,"Chairperson of Council of Economic Advisers: Inflation Reduction Act, (IRA), is really just the Investment Reduction Act",S&P,negative,-0.792
-2023-06-21,How I felt after today’s trading day,S&P,error,2.0
+2023-06-21,How I felt after today’s trading day,S&P,neutral,0.0
 2023-06-21,Forgive me Su Bae,S&P,positive,0.333
 2023-06-21,LUCID insiders selling at a loss.,S&P,negative,-1.0
 2023-06-21,The bears thought they had found the head and shoulders pattern but us bulls know it's the germany 1940 pattern,S&P,negative,-0.125
@@ -1367,7 +1367,7 @@ date,text,ticker,label,score
 2023-06-21,Time in the market,S&P,positive,0.0
 2023-06-21,Will it print or will I cray?,S&P,positive,0.0
 2023-06-21,roku thesis for friend,S&P,positive,0.5
-2023-06-21,$NKLA$,NKLA,error,2.0
+2023-06-21,$NKLA$,NKLA,positive,0.0
 2023-06-21,GEX/DEX Data for Trading,S&P,neutral,0.0
 2023-06-21,Scalping 9 markets simultaneously,S&P,negative,-0.8
 2023-06-21,Gannett sues Google over alleged monopolization of ad-tech markets,S&P,negative,-0.431
@@ -1384,7 +1384,7 @@ date,text,ticker,label,score
 2023-06-23,This fight needs to happen. Elon has size and South African but Mark has training,S&P,positive,0.286
 2023-06-23,Coffeezilla dragging us on his latest investigation,S&P,negative,-0.252
 2023-06-23,Ran some simulations on what the fight between Elon and Mark would look like.,S&P,positive,0.286
-2023-06-23,Who yall putting your bets on?,S&P,error,2.0
+2023-06-23,Who yall putting your bets on?,S&P,Neutral,0.0
 2023-06-23,Definitely selling off my TSLA shares now,TSLA,negative,-0.499
 2023-06-23,Calls on Virgin Galactic,S&P,positive,0.561
 2023-06-23,Do we short Tesla at weigh in??,S&P,negative,-0.328
@@ -1433,7 +1433,7 @@ date,text,ticker,label,score
 2023-06-23,Cannabis LPs and MSOS community needs guidance.,S&P,Neutral,0.0
 2023-06-23,Lamest Yolo UPdate week loss porn,S&P,negative,-0.723
 2023-06-23,Why has SPY VOL dried up so much?,S&P,negative,-0.272
-2023-06-23,What am I missing about Sixt Vz. ?,S&P,error,2.0
+2023-06-23,What am I missing about Sixt Vz. ?,S&P,neutral,0.0
 2023-06-23,"YOLO, Short on C3.AI",S&P,negative,-0.2
 2023-06-23,Short Bets on US Stocks Hit $1 Trillion,S&P,negative,-0.543
 2023-06-23,"US Treasury Secretary Yellen Sees Lower US Recession Risk, Says Consumer Slowdown Needed",S&P,positive,0.325
@@ -1563,7 +1563,7 @@ date,text,ticker,label,score
 2023-06-30,Thank you to USAA Insurance for sponsoring these trades with my insurance money. My car will never drive again....,S&P,negative,-0.684
 2023-06-30,The infinite wisdom of AutoModerator has been bestowed on us.,S&P,positive,0.33
 2023-06-30,Space companies,S&P,neutral,0.0
-2023-06-30,Woke up to this…,S&P,error,2.0
+2023-06-30,Woke up to this…,S&P,negative,0.0
 2023-06-30,"WSB initiation, loss porn",S&P,negative,-0.4
 2023-06-30,HES ALIVE!! CVNA 🌕 $30+ this week,"CVNA, HES",positive,0.85
 2023-06-30,Six questions facing US stock investors as 2023's second half nears.,S&P,neutral,0.0
@@ -1591,7 +1591,7 @@ date,text,ticker,label,score
 2023-06-30,COIN Gainz Update ~$40k. Sold remaining calls,COIN,positive,0.0
 2023-06-30,1 week Options be like…,S&P,negative,-0.5
 2023-06-30,Micron Delivers Strong Forecast in Sign That Chip Glut Is Easing,S&P,positive,0.756
-2023-06-30,Thoughts on this stocks situation,S&P,error,2.0
+2023-06-30,Thoughts on this stocks situation,S&P,neutral,0.0
 2023-06-30,"Time to secure profits and sell everything or hodl tight? Yes, my losses are laughable, I have hard time letting go. Still learning. +~198k",S&P,positive,0.893
 2023-06-30,"YTD Performance of the S&P 500 & NASDAQ vs. the Magnificent 7 (Apple $AAPL, Microsoft $MSFT, Google $GOOGL, Amazon $AMZN, Nvidia $NVDA, Tesl","AAPL, AMZN, GOOGL, MSFT, NVDA",positive,0.267
 2023-06-30,Nvidia is going to $320,S&P,positive,0.25
@@ -1748,7 +1748,7 @@ date,text,ticker,label,score
 2023-07-05,China's Xpeng sees sales turnaround in second half with new EV mode,S&P,positive,0.398
 2023-07-05,Forget QE or Rate Cuts Bloomberg just said Buy Puts,S&P,positive,0.25
 2023-07-05,Callon Petroleum Buyback (CPE),CPE,neutral,0.0
-2023-07-05,Wash sell,S&P,error,2.0
+2023-07-05,Wash sell,S&P,neutral,0.0
 2023-07-05,Biogen undervalued,S&P,positive,0.479
 2023-07-05,"What Are Your Moves Tomorrow, July 05, 2023",S&P,neutral,0.0
 2023-07-05,The Inflation Nightmare Continues: Prices Soar Despite Economic Recovery,S&P,negative,-0.742
@@ -1800,7 +1800,7 @@ date,text,ticker,label,score
 2023-07-07,"What Are Your Moves Tomorrow, July 07, 2023",S&P,neutral,0.0
 2023-07-07,Why $SAVE has a MONSTER setup for a 50x potential return.,S&P,positive,0.75
 2023-07-07,"It might be 'idiocy' to buy ahead of earnings season, says Jim Cramer",S&P,negative,-0.283
-2023-07-07,VOLD question,S&P,error,2.0
+2023-07-07,VOLD question,S&P,neutral,0.0
 2023-07-07,"all-in on barbie stock, Mattel DD ($MAT)","DD, MAT",positive,0.699
 2023-07-07,every earnings call,S&P,Neutral,0.0
 2023-07-07,Bond market,S&P,neutral,0.0
@@ -1815,7 +1815,7 @@ date,text,ticker,label,score
 2023-07-07,Reviewing WSB charts,S&P,neutral,0.0
 2023-07-07,"After Meta and Threads, Zuck's next inspiring product name leaked:",S&P,positive,0.0
 2023-07-07,Anyone bullish on $MAT,MAT,positive,0.625
-2023-07-07,AMC Regard in 2023,AMC,error,2.0
+2023-07-07,AMC Regard in 2023,AMC,neutral,0.0
 2023-07-07,$SYNA Synaptics an edge-AI play. Hardware AI Company before its time?,SYNA,positive,0.5
 2023-07-07,"Daily Discussion Thread for July 06, 2023",S&P,positive,0.1
 2023-07-07,The prophecy was foretold,S&P,positive,0.0
@@ -1846,7 +1846,7 @@ date,text,ticker,label,score
 2023-07-07,"What Are Your Moves Tomorrow, July 06, 2023",S&P,neutral,0.0
 2023-07-07,Which Alien Stocks are going to the Moon? $UFO,S&P,positive,0.75
 2023-07-07,$TSLA earnings📈📈,TSLA,positive,0.5
-2023-07-07,ABST volume?,S&P,error,2.0
+2023-07-07,ABST volume?,S&P,negative,0.0
 2023-07-07,Buying the index with exceptions,S&P,positive,0.3
 2023-07-07,"Started trading spreads, and options in general a month ago, I think I’m off to a pretty great start.",S&P,positive,0.741
 2023-07-07,Zuck pulling some good numbers with THREADS,S&P,positive,0.375
@@ -2026,7 +2026,7 @@ date,text,ticker,label,score
 2023-07-13,u/smartkuz YOLOs are fake. He’s pumping low liquidity options with the help of bots and exiting after a small move. These are actual YOLOs:,S&P,negative,-0.992
 2023-07-13,Saudi Public Investment Fund reports $16 billion in 2022 losses as LIV Golf merger moves forward,S&P,negative,-0.542
 2023-07-13,$45k TSLA YOLO,TSLA,positive,0.0
-2023-07-13,How I feel as a banker,S&P,error,2.0
+2023-07-13,How I feel as a banker,S&P,neutral,0.0
 2023-07-13,Literally everyday,S&P,neutral,0.0
 2023-07-13,"$15,000 $COIN PUTS YOLO",COIN,negative,-0.9
 2023-07-13,AI hype is not Dead! Palantir is about leave you all behind $18 EOW confirmed 🚀,S&P,positive,0.778
@@ -2369,9 +2369,9 @@ date,text,ticker,label,score
 2023-07-19,Found this at school found it appropriate for the guy using his rent money. Calls on Christianity,S&P,positive,0.478
 2023-07-19,Market these days,S&P,neutral,0.0
 2023-07-19,CVNA moving earnings up to 7/19,CVNA,Neutral,0.0
-2023-07-19,Want advice from you regards please,S&P,error,2.0
+2023-07-19,Want advice from you regards please,S&P,Neutral,0.0
 2023-07-19,"What Are Your Moves Tomorrow, July 19, 2023",S&P,neutral,0.0
-2023-07-19,UPS Stock and the price,UPS,error,2.0
+2023-07-19,UPS Stock and the price,UPS,neutral,0.0
 2023-07-19,RTX pattern again,RTX,neutral,0.0
 2023-07-19,Lucid (LCID) EVs are available for lease for the first time in Saudi Arabia. Possible short squeeze? $LCID,LCID,positive,0.536
 2023-07-19,Apple preps Ajax Generative AI to compete with ChatGPT & Google,S&P,positive,0.231
@@ -2445,7 +2445,7 @@ date,text,ticker,label,score
 2023-07-20,It’s okay guys…I can make it back,S&P,positive,0.5
 2023-07-20,Perma-bulls and perma-bears getting their epiphany (colorized),S&P,positive,0.371
 2023-07-20,So with both ASML and TSM(C) earnings/calls complete how do we feel for the future of AI/semi-conductor chips sentiment?,"ASML, TSM",positive,0.286
-2023-07-20,Michael Burry on Pac West Bank:,S&P,error,2.0
+2023-07-20,Michael Burry on Pac West Bank:,S&P,neutral,0.0
 2023-07-20,META Megaphone Update - Posted 4 Months Ago,META,positive,0.0
 2023-07-20,This should do alright?,S&P,positive,0.486
 2023-07-20,Mattel to the moon?,S&P,positive,0.0
@@ -2626,7 +2626,7 @@ date,text,ticker,label,score
 2023-07-27,Investing 101: The WSB Way,S&P,positive,0.689
 2023-07-27,Sold my 8 shares of MSFT and bought 30 more AMZN shares! My first 100+ share stock!,"AMZN, MSFT",positive,0.83
 2023-07-27,The Yolo Manifesto: I will gamble till I’m a millionaire,S&P,positive,0.862
-2023-07-27,.,S&P,error,2.0
+2023-07-27,.,S&P,neutral,0.0
 2023-07-27,Nice,S&P,positive,0.9
 2023-07-27,Final $DISH Post (Copium + Loss Porn),DISH,negative,-0.5
 2023-07-27,"Daily Discussion Thread for July 27, 2023",S&P,positive,0.5
@@ -3101,7 +3101,7 @@ date,text,ticker,label,score
 2023-08-03,Did you guys made money during the COVID,S&P,positive,0.0
 2023-08-03,BOJ Enters Bond Market for Second Time This Week as Yields Rise,S&P,positive,0.2
 2023-08-03,How do I become successful option trader?,S&P,positive,0.5
-2023-08-03,Is this position considered WSB regard,S&P,error,2.0
+2023-08-03,Is this position considered WSB regard,S&P,neutral,0.0
 2023-08-04,"Daily Discussion Thread for August 04, 2023",S&P,positive,0.5
 2023-08-04,Hedge funds lose $6bn betting against cruise lines and hotels,S&P,negative,-0.598
 2023-08-04,NVDA forming a classic onix pattern. I'm going in,NVDA,positive,0.0

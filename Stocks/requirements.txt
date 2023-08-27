@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+yfinance
+openai
+python-dotenv
+seaborn
+transformers
+vaderSentiment
+sklearn
+tensorflow
+keras

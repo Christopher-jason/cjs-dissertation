@@ -11,7 +11,6 @@ This paper studies how r/wallstreetbets have an impact on the stock market and h
 discussed more due to the relevance/popularity of the company in the general space.
 
 '''
-
 # %%
 # Importing Libraries
 import os
@@ -135,7 +134,6 @@ def find_matches(hot_df, symbols):
     tickers = pd.DataFrame(results, columns=["date", "text", "ticker"])
     return tickers
 
-
 # %%
 hot_ticker = find_matches(hot_df,symbols)
 new_ticker = find_matches(new_df,symbols)
@@ -207,9 +205,8 @@ def vader_sentiments(df,analyzer=analyzer_vader):
     
     return vader_sentiment
 
-    hot_vader = vader_sentiments(hot_ticker)
-    new_vader = vader_sentiments(new_ticker)
-
+hot_vader = vader_sentiments(hot_ticker)
+new_vader = vader_sentiments(new_ticker)  
 # %%
 #write the variable to csv file with no index
 hot_vader.to_csv('sentiment_scores/hot_vader.csv', index=False)
@@ -360,7 +357,6 @@ def chatgpt_sentiments(df, tmp_df=tmp_df, max_retries=5, base_delay=1, analyzer=
 
     return chatgpt_df(rows)
 
-
 # %%
 hot_chatgpt = chatgpt_sentiments(hot_ticker)
 new_chatgpt = chatgpt_sentiments(new_ticker)
@@ -380,8 +376,6 @@ for index, row in new_merged_df.iterrows():
     new_index = new_chatgpt[new_chatgpt['text'] == row['text']].index.item()
     new_chatgpt.at[new_index, 'label'] = row['label_tmp']
     new_chatgpt.at[new_index, 'score'] = row['score_tmp']
-
-
 
 # %%
 #clean the label 
@@ -528,12 +522,6 @@ model_analysis_vader(hot_vader, new_vader)
 # %%
 ###### DOWNLOAD STOCK TICKERS #########
 
-#test S&P 500 since the symbol in yf is unique
-sp = download_stock_data("^GSPC")
-sp.head()
-#write it to a csv file
-sp.to_csv('price_data/top_13/S&P.csv')
-
 def download_stock_data(ticker):
     start_date = pd.to_datetime('2022-08-02')
     end_date = pd.to_datetime('2023-08-17')
@@ -549,6 +537,12 @@ def download_ticker(ticker_list):
         #write the stock data to a csv file in the price_data folder
         stock_data.to_csv('price_data/top_13/'+ticker+'.csv')
 
+#test S&P 500 since the symbol in yf is unique
+sp = download_stock_data("^GSPC")
+sp.head()
+#write it to a csv file
+sp.to_csv('price_data/top_13/S&P.csv')
+
 #convert the tickers to a list
 ticker_list = list(set(hot_ticker['ticker'].tolist()))
 
@@ -556,7 +550,6 @@ download_ticker(ticker_list)
 
 # %%
 ####### READ THE DFs INTO A DICT #######
-
 
 price_data = {}
 for ticker in ticker_list:
@@ -566,16 +559,13 @@ for ticker in ticker_list:
     else:
         print(f"File for {ticker} does not exist!")
 
-
 ####### CALCULATE THE RETURNS #######
-
 
 for ticker, df in price_data.items():
     close_prices = df['Close']
     for days in range(1, 6):
         df[f'Returns_{days}'] = close_prices.pct_change(periods=days)
     price_data[ticker] = df
-
 
 
 # %%
@@ -599,8 +589,6 @@ def merge_dataframes(sentiment_df, price_data_dict):
             ticker = 'S&P'
         
         matching_date = ticker_df[ticker_df['Date'] == date]
-
-        
 
         # If a matching date is found, merge the entire row
         if not matching_date.empty:
@@ -664,8 +652,6 @@ def merge_dataframes_vader(sentiment_df, price_data_dict):
         
         matching_date = ticker_df[ticker_df['Date'] == date]
 
-        
-
         # If a matching date is found, merge the entire row
         if not matching_date.empty:
             op = matching_date['Open'].iloc[0]
@@ -681,14 +667,12 @@ def merge_dataframes_vader(sentiment_df, price_data_dict):
 
             merged_rows.append([date, text, ticker,compound, op, hi, lo, cl, vol, ret_1, ret_2, ret_3, ret_4, ret_5])
 
-
-    # Concatenate all the merged rows to create the merged DataFrame
     merged_df = pd.DataFrame(merged_rows, columns=['date','text','ticker','compound', 'open','high','low','close','vol','ret_1','ret_2','ret_3','ret_4','ret_5'])
 
     return merged_df
 
-hot_vader_top = merge_dataframes_vader(hot_vader,price_data_top_13)
-new_vader_top = merge_dataframes_vader(new_vader,price_data_top_13)
+hot_vader_top = merge_dataframes_vader(hot_vader,price_data)
+new_vader_top = merge_dataframes_vader(new_vader,price_data)
 
 #write vader to csv file
 hot_vader_top.to_csv('sentiment_score_ret/top_13/hot_vader_ret.csv',index=False)
@@ -697,15 +681,14 @@ new_vader_top.to_csv('sentiment_score_ret/top_13/new_vader_ret.csv',index=False)
 # %%
 ############# NEURAL NETWORK MODELS ##############
 
-
 import tensorflow as tf
 from keras.layers import Input, Embedding, LSTM, Dense, Conv1D, MaxPooling1D, GlobalMaxPooling1D, concatenate
 from keras.models import Model
-from keras.utils import plot_model,pad_sequences
+from keras.utils import pad_sequences
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from sklearn.preprocessing import OneHotEncoder
 from keras.preprocessing.text import Tokenizer
-from tensorflow.keras import Model, Input, layers, metrics
+from tensorflow.keras import metrics
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
@@ -734,7 +717,6 @@ def plot_loss_and_accuracy(history):
 
     plt.show()
 
-
 def plot_week_eval(accuracy,precision,recall,loss):
   labels = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5']
   fig, axes = plt.subplots(2, 2, figsize=(18, 12))
@@ -759,7 +741,6 @@ def plot_week_eval(accuracy,precision,recall,loss):
 
 # %%
 ####### LSTM #########
-
 
 def LSTM_weekly(df, return_day, max_words=10000):
     # Preprocessing
@@ -1289,6 +1270,7 @@ def CNN_weekly_vader(df, return_day, max_words=10000):
         tf.keras.utils.plot_model(model, show_shapes=True)
         model.summary()
 
+    #Train the model
     history = model.fit(
         {'text_input': train_text_padded, 'ticker_input': X_train[ticker_dummies.columns].values,
          'compound_input': X_train['compound'].values,
@@ -1314,7 +1296,6 @@ def CNN_weekly_vader(df, return_day, max_words=10000):
     print("Test Loss for Returns from day ", return_day, " : {:.4f}".format(evaluation[0]))
 
     return evaluation
-
 
 # %%
 print("=============  HOT VADER CNN  =============== \n")
